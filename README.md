@@ -46,3 +46,6 @@ scipy.stats: Statistical functions for hypothesis testing.
 tkinter: GUI toolkit for creating desktop applications.
 messagebox: Dialogs for displaying messages.
 tkhtmlview.HTMLLabel: HTML label for displaying rich text.
+
+## Project Structure
+The program uses the K-Means algorithm to cluster the anime data based on their features, providing insights into the different genres and trends in the industry. I developed a collaborative filtering model using the stochastic gradient descent algorithm to predict user ratings for animes. The program also implements a content-based filtering system, which uses the term frequency-inverse document frequency (TF-IDF) technique to represent the anime data and computes the similarity between animes using the cosine similarity metric. The program includes a graphical user interface (GUI) built using the Tkinter library, which allows users to interact with the system and view the recommendations and other insights.
