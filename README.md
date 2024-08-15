@@ -6,16 +6,18 @@ As an avid anime enthusiast, I've long been captivated by the medium's vibrant c
     
 By leveraging advanced algorithms and comprehensive datasets, I aimed to craft a personalized discovery experience for both myself and fellow anime aficionados. This endeavor presented an exciting opportunity to apply data-driven techniques to a domain I'm deeply passionate about. It allowed me to explore the intricate relationships between various anime attributes and viewer preferences, ultimately translating these insights into meaningful recommendations.
     
-####Description:
-    This project involves creating a recommendation system for animes using collaborative filtering and content-based filtering techniques. The system is designed to provide personalized anime recommendations based on user preferences and anime attributes.
+#### Description:
 
-####Tools and Technologies:
-    Python, Pandas, Scikit-learn, TensorFlow, Keras, and tkinter
+This project involves creating a recommendation system for animes using collaborative filtering and content-based filtering techniques. The system is designed to provide personalized anime recommendations based on user preferences and anime attributes.
+
+#### Tools and Technologies:
+Python, Pandas, Scikit-learn, TensorFlow, Keras, and tkinter
     
-**Approach:**
-    The program implements a comprehensive anime recommendation system utilizing collaborative filtering and statistical analysis techniques. The process begins with data preprocessing, where user and anime data are imported, normalized, and encoded. Principal Component Analysis (PCA) is applied to reduce dimensionality, followed by KMeans clustering to identify user segments. The program extracts and normalizes embedding weights from a trained neural network model to find similar animes based on user preferences. The recommendation system is integrated with a graphical user interface (GUI) to allow users to input anime names and receive recommendations.
+#### Approach:
+
+The program implements a comprehensive anime recommendation system utilizing collaborative filtering and statistical analysis techniques. The process begins with data preprocessing, where user and anime data are imported, normalized, and encoded. Principal Component Analysis (PCA) is applied to reduce dimensionality, followed by KMeans clustering to identify user segments. The program extracts and normalizes embedding weights from a trained neural network model to find similar animes based on user preferences. The recommendation system is integrated with a graphical user interface (GUI) to allow users to input anime names and receive recommendations.
     
-**Data Exploration:**
+#### Data Exploration:
 
   ![Data Exploration 1](https://github.com/DSM2499/recomendation_system/blob/main/Photos/Anime%20recommendation%20photos/Anime%20Distribution.png)
 
@@ -23,7 +25,7 @@ By leveraging advanced algorithms and comprehensive datasets, I aimed to craft a
 
   ![Data Exploration 3](https://github.com/DSM2499/recomendation_system/blob/main/Photos/Anime%20recommendation%20photos/Clustering%20for%20users.png)
 
-- **Recommendation Output:**
+#### Recommendation Output:
 
   ![Recommendation Output 1](https://github.com/DSM2499/recomendation_system/blob/main/Photos/Anime%20recommendation%20photos/Portfolio%20Recommendation%20Example.png)
 
